@@ -1,0 +1,22 @@
+.select-category-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.select-category-container p{
+    text-align: center;
+    padding: 5px;
+}
+
+.select-category-container-select{
+    display: flex;
+    padding: 2px;
+}
+
+.select-category-container-select option{
+    display: flex;
+    text-align: center;
+    padding: 2px;
+}
