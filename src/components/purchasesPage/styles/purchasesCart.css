@@ -5,11 +5,12 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rgb(173, 232, 255);
-    color: black;
+    /* background-color: rgb(173, 232, 255); */
+    /* color: black; */
     padding: 30px;
+    /* border: 1px solid; */
     border-radius: 20px;
-    
+    box-shadow: 0 0 5px, 0 0 5px, 0 0 5px, 0 0 5px;
 }
 
 .purchases-cart-container figure {

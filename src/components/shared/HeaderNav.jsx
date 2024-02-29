@@ -10,7 +10,7 @@ const HeaderNav = () => {
       }
   return (
     <div className='header-nav-container'>
-        <h1><Link to='/'>ECOMMERCE</Link></h1>
+        <h1><Link to='/'>E-COMMERCE</Link></h1>
         <button onClick={handleDark}><box-icon name='moon'></box-icon></button>
         <nav>
           <ul className='header-nav-container-list'>
