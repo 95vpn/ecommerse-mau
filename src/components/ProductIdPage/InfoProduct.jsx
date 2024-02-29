@@ -52,7 +52,7 @@ const InfoProduct = ({ productId }) => {
                     </ul>
                 </div>
             </div>
-            <button className='info-product-container-buttons' onClick={handleAddToCart}>Add to Cart</button>
+            <button className='info-product-container-buttons' onClick={handleAddToCart}><box-icon name='cart-add' type='solid' ></box-icon></button>
         </div>
     )
 }

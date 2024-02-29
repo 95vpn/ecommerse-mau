@@ -21,9 +21,11 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    height: 200px;
+    height: 250px;
     gap: 10px;
     width: 200px;
+    justify-content: space-around;
+    text-align: center;
 }
 
 .cart-product-container-info-buttons {
