@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './styles/headerNav.css'
 const body = document.querySelector('body')
 
 
@@ -7,9 +9,16 @@ const HeaderNav = () => {
         body.classList.toggle('dark')
       }
   return (
-    <div>HeaderNav
-        <h1>ECOMMERCE FINAL</h1>
-        <button onClick={handleDark}>Dark Mode</button>
+    <div className='header-nav-container'>
+        <h1><Link to='/'>ECOMMERCE</Link></h1>
+        <button onClick={handleDark}><box-icon name='moon'></box-icon></button>
+        <nav>
+          <ul className='header-nav-container-list'>
+            <li><Link to='/login'>Login</Link></li>
+            <li><Link to='/purchases'>Purchases</Link></li>
+            <li><Link to='/cart'>Cart</Link></li>
+          </ul>
+        </nav>
     </div>
   )
 }

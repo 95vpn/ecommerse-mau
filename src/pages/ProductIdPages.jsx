@@ -17,7 +17,6 @@ const ProductIdPages = () => {
 
   return (
     <div>
-        <h2>idProduct</h2>
         <SliderImages
             images={productId?.images}
         />

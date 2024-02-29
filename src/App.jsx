@@ -8,19 +8,22 @@ import PurchasesPage from './pages/PurchasesPage'
 import ProductIdPages from './pages/ProductIdPages'
 import LoginPage from './pages/LoginPage'
 import HeaderNav from './components/shared/HeaderNav'
+import Protected from './pages/Protected'
 
 function App() {
 
   return (
     <div>
-      <HeaderNav/>
+      <HeaderNav />
       <Routes>
-        <Route path='/' element={<HomePage/>}/>
-        <Route path='/product/:id' element={<ProductIdPages/>}/>
-        <Route path='/register' element={<RegisterPage/>}/>
-        <Route path='/login' element={<LoginPage/>}/>
-        <Route path='/cart' element={<CartPage/>}/>
-        <Route path='/purchases' element={<PurchasesPage/>}/>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/product/:id' element={<ProductIdPages />} />
+        <Route path='/register' element={<RegisterPage />} />
+        <Route path='/login' element={<LoginPage />} />
+        <Route element={<Protected/>}>
+          <Route path='/cart' element={<CartPage />} />
+          <Route path='/purchases' element={<PurchasesPage />} />
+        </Route>
       </Routes>
     </div>
   )

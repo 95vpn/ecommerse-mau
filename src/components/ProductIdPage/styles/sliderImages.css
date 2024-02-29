@@ -1,3 +1,9 @@
+.slider-images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .splide {
     width: 380px;
 }
@@ -7,4 +13,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.splide__arrow {
+    background-color: rgb(173, 173, 255);
+}
+
+.splide__pagination__page {
+    background-color: rgb(173, 173, 255);
 }

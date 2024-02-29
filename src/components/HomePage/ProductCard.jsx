@@ -12,7 +12,7 @@ const ProductCard = ({ prod }) => {
     }
 
     return (
-        <div className='product-card'> ProductCard
+        <div className='product-card'>
             <figure onClick={handleView} className='product-card-figure'>
                 <img src={prod.images[0].url} alt="product image" />
                 <img src={prod.images[1].url} alt="product image" />
@@ -23,8 +23,8 @@ const ProductCard = ({ prod }) => {
                 <li><span>Price:</span><span>{prod.price}</span></li>
             </ul>
             <div className='product-card-button'>
-                <button>Add to Cart</button>
-                <button onClick={handleView}>View More</button>
+                <button><box-icon name='cart-add' type='solid' ></box-icon></button>
+                <button onClick={handleView}>View More</button>               
             </div>
         </div>
     )
