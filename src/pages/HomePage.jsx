@@ -48,9 +48,10 @@ const HomePage = () => {
  
 
   return (
-    <div>
+    <div className='container-homePage'>
       <div className='filters-container'>
         {/* <h1>ECOMMERSE</h1> */}
+        
         <FormPrice
           setFormValue={setFormValue}
         />

@@ -13,6 +13,7 @@ body.dark {
 body {
   background-color: rgb(227, 244, 250);
   color: rgb(56, 1, 119);
+  font-size: 1.3rem;
 }
 
 img {
@@ -40,6 +41,13 @@ a {
 
 a:hover {
   color: rgb(173, 173, 255);
-  transform: scale(1.05);
+  /* transform: scale(1.05); */
   font-weight: bold;
+}
+
+@media  (max-width:480px) {
+  body {
+    
+    font-size: 0.9rem;
+  }
 }
