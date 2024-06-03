@@ -55,7 +55,7 @@ const HomePage = () => {
         <FormPrice
           setFormValue={setFormValue}
         />
-        <hr />
+        {/* <hr /> */}
         <div className='filters-container-name'>
           <p>By Name</p>
           <input type="text" ref={textInput} onChange={handleSearch} placeholder='Introduce Product Name' />
@@ -74,6 +74,18 @@ const HomePage = () => {
           ))
         }
       </section>
+      <ul class="circle">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
     </div>
   )
 }
