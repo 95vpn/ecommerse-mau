@@ -25,7 +25,7 @@ const FormPrice = ({ setFormValue }) => {
                 <label htmlFor="to">To:</label>
                 <input {...register('to')} id='to' type="number" />
             </div>
-            <button>Fiter Price</button>
+            <button>Filter Price</button>
         </form>
     </div>
   )
